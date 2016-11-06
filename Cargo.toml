@@ -1,0 +1,10 @@
+[package]
+name = "rusty_alfred"
+version = "0.1.0"
+authors = ["Kyle Clemens <me@kyleclemens.com>"]
+
+[dependencies]
+serde = "0.8"
+serde_json = "0.8"
+serde_derive = "0.8"
+error-chain = "0.5"
