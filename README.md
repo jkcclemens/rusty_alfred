@@ -1,5 +1,7 @@
 # rusty_alfred
 
+![docs](https://docs.rs/rusty_alfred/badge.svg)
+
 Rusty Alfred is a quick library built to interact with [Alfred 3](http://alfredapp.com/) via
 [Script Filters](https://www.alfredapp.com/help/workflows/inputs/script-filter/) in the
 [JSON format](https://www.alfredapp.com/help/workflows/inputs/script-filter/json/).
