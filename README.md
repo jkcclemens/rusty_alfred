@@ -1,6 +1,6 @@
 # rusty_alfred
 
-![docs](https://docs.rs/rusty_alfred/badge.svg)
+[![docs](https://docs.rs/rusty_alfred/badge.svg)](https://docs.rs/crate/rusty_alfred/)
 
 Rusty Alfred is a quick library built to interact with [Alfred 3](http://alfredapp.com/) via
 [Script Filters](https://www.alfredapp.com/help/workflows/inputs/script-filter/) in the
