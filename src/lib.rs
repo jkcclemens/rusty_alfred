@@ -407,7 +407,10 @@ pub struct AlfredItemMods {
   pub cmd: Option<AlfredItemMod>,
   /// The modifier information for when Control is being pressed.
   #[serde(skip_serializing_if = "Option::is_none")]
-  pub ctrl: Option<AlfredItemMod>
+  pub ctrl: Option<AlfredItemMod>,
+  /// The modifier information for when Shift is being pressed.
+  #[serde(skip_serializing_if = "Option::is_none")]
+  pub shift: Option<AlfredItemMod>
 }
 
 impl Default for AlfredItemMods {
@@ -415,7 +418,8 @@ impl Default for AlfredItemMods {
     AlfredItemMods {
       alt: None,
       cmd: None,
-      ctrl: None
+      ctrl: None,
+      shift: None
     }
   }
 }
@@ -443,6 +447,12 @@ impl AlfredItemMods {
   /// The modifier information for when Control is being pressed.
   pub fn ctrl(mut self, ctrl: AlfredItemMod) -> Self {
     self.ctrl = Some(ctrl);
+    self
+  }
+
+  /// The modifier information for when Shift is being pressed.
+  pub fn shift(mut self, shift: AlfredItemMod) -> Self {
+    self.shift = Some(shift);
     self
   }
 }
