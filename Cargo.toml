@@ -3,6 +3,13 @@ name = "rusty_alfred"
 version = "0.1.0"
 authors = ["Kyle Clemens <me@kyleclemens.com>"]
 
+description = "Interaction with Alfred 3 workflows"
+repository = "https://github.com/jkcclemens/rusty_alfred"
+documentation = "https://docs.rs/rusty_alfred"
+license = "MPL-2.0"
+readme = "README.md"
+keywords = ["alfred", "workflow"]
+
 [dependencies]
 serde = "0.8"
 serde_json = "0.8"
